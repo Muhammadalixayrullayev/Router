@@ -10,7 +10,7 @@ const Navbar = () => {
         data.map((v) =>(
             <NavLink to={v.navigation}>
             <p>{v.title}</p>
-
+<p>salom</p>
             </NavLink>
         ))
       }
