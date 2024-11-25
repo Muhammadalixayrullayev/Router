@@ -1,3 +1,4 @@
+import Changelog from "../Changelog";
 import Cases from "../child/Cases";
 import DesignValues from "../child/DesignValues";
 import Introduction from "../child/Introduction";
@@ -37,6 +38,21 @@ const Data = [
         title: 'Development',
         component: <Development />,
         navigation: '/development',
+        people: [
+            {
+                id: 1.1,
+                title: 'Ant Design of React',
+                navigation: '/Development/Ant Design of React',
+                // component:<Introduction/>
+            },
+            {
+                id: 1.2,
+                title: 'Changelog',
+                navigation: '/Development/Changelog',
+                component:<Changelog/>
+            },
+           
+        ]
     },
     {
         id: 3,
